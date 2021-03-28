@@ -5,6 +5,10 @@
   font-family: Source Sans Pro;
   font-weight: lighter;
 }
+body{
+  width: 414px;
+  height: 736px;
+}
 
 div.page-wrapper {
   display: flex;
