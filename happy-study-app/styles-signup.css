@@ -1,0 +1,89 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Source Sans Pro;
+}
+
+div.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+main.maincontent {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  color: red;
+  font-size: 2em;
+  border-bottom: 2px solid red;
+  padding: 10px;
+  text-align: center;
+
+}
+/* welkomsbericht op signup page*/
+section.welcome p {
+  padding: 2em;
+  line-height: 1.5em;
+}
+
+h2.sign-up-title {
+  color: red;
+  font-size: 2em;
+  font-weight: lighter;
+  border-bottom: 2px solid red;
+  padding: 10px;
+  text-align: center;
+}
+/* form op sign in en sign up page*/
+form.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img.input-profile-pic{
+  width: 20%;
+  margin-top: 2em;
+}
+label.input-profile-text{
+  color: grey;
+  font-size: 15px;
+  margin-bottom: 1em;
+
+}
+input.input-form {
+  margin: 10px;
+  border: 1px solid grey;
+  height: 30px;
+  border-radius: 20px;
+  width: 60%;
+}
+
+input.input-submit {
+  align-self: center;
+  color: white;
+  font-size: 25px;
+  background: red;
+  height: 2em;
+  width: 40%;
+  margin-top: 15px;;
+  border-style: none;
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px grey;
+}
+/* text onder button*/
+section.already-have-account{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 1em;
+margin-bottom: 3em;
+
+}
+section.already-have-account a{
+  color: blue;
+  text-decoration: none;
+}

@@ -1,0 +1,217 @@
+*, html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Source Sans Pro;
+  font-weight: lighter;
+}
+
+div.page-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* navigatie bar*/
+nav {
+  display: flex;
+  width: 16%;
+  flex-direction: column;
+  background-color: black;
+  padding: 10px;
+  height: 100%;
+  position: fixed;
+}
+
+a.nav-happystudy img {
+  width: 40px;
+  width: 3em;
+}
+
+a.nav-icon img {
+  width: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 84%;
+  margin-left: 16%;
+  margin-bottom: 2em;
+}
+
+/* grote header op elke pagina*/
+header {
+  color: red;
+  font-size: 2em;
+  border-bottom: 2px solid red;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/* home page pagina*/
+/* 1e kopje zonder zwarte lijn boven. kopje voor bij de scroll kopje*/
+h2.subkopje-scroll {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-size: 17px;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+/* alle kopjes onder de 1e kopje met zwarte lijn boven. kopje bij de scroll kopje*/
+h2.subkopje-scroll-border {
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-size: 17px;
+  margin-top: 2em;
+  margin-left: 1em;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+/* wrapper max width -- scollable*/
+div.outer-wrapper {
+  display: flex;
+  align-self: flex-end;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+/* wrapper voor scrollable fotos met text*/
+div.scroll-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+img.scroll-img-size {
+  width: 150px;
+  margin: 15px;
+}
+
+figcaption {
+  margin-left: 15PX;
+}
+
+/* onformatie over de cafes en library*/
+article.informatie {
+  display: flex;
+  flex-direction: column;
+}
+
+img.informatie-img {
+  width: 75%;
+  align-self: center;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+hr.line {
+  width: 70%;
+  background-color: red;
+  border: 1px solid red;
+  align-self: center;
+  margin: 1em;
+  margin-top: 1.5em;
+}
+
+section.informatie-tijden h2, section.informatie-address h2, section.informatie-about h2 {
+  color: red;
+  font-size: 17px;
+}
+
+section.informatie-tijden, section.informatie-address, section.informatie-about {
+  margin-left: 1em;
+  margin-right: 1.5em;
+  margin-top: 1em;
+}
+
+/* button voor set the date*/
+a.informatie-button {
+  align-self: flex-end;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin: 2em;
+  box-shadow: 2px 2px 5px grey;
+}
+/* search bar*/
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  border: 2px solid lightblue;
+  width: 80%;
+  align-self: center;
+  border-radius: 20px;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+.searchTerm {
+  border: none;
+  margin-left: 1em;
+}
+
+img.searchbar {
+  width: 1em;
+  margin-right: 1em;
+  height: 1.5em;
+  width: auto;
+  padding: 2px;
+}
+
+img.row-img {
+  width: 150px;
+  ;
+}
+
+figure.img-info {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  max-width: 95%
+}
+
+a.info-text {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+}
+
+article.info-row {
+  border-bottom: 1px solid black;
+  margin: 20px;
+  ;
+}
+
+article.info-row h2 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+section.bottom-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+p.open-closed {
+  color: green;
+}
+
+img.flat-page{
+width: 100%;
+height: 100%;
+
+}
